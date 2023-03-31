@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   return (
-    <a href='a' className='action'>Sobre</a>
+    <a href='#ato-do' className='action'>Sobre</a>
   );
 }
 
