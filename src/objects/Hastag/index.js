@@ -1,23 +1,24 @@
 import React from "react";
 import Card from "../Card";
 import Player from "../Player";
-
+import './styles.css';
 
 const Hastag = ()=>(
  
     <Card>
-     <Player player="x" />
-     <Player player="o" />
-     <Player player="x" />
+      <ul className="hastag">
+        <li className="item"><Player player="x" /></li>
+        <li className="item"><Player player="o" /></li>
+        <li className="item"><Player player="x" /></li>
 
-     <Player player="o" />
-     <Player player="x" />
-     <Player player="o" />
+        <li className="item"><Player player="o" /></li>
+        <li className="item"><Player player="x" /></li>
+        <li className="item"><Player player="o" /></li>
 
-     <Player player="o" />
-     <Player player="x" />
-     <Player player="o" />
-
+        <li className="item"><Player player="o" /></li>
+        <li className="item"><Player player="x" /></li>
+        <li className="item"><Player player="o" /></li>
+      </ul>
      </Card>
 
 );
