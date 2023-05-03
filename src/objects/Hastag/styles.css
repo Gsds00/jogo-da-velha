@@ -12,4 +12,6 @@
 }
 .hastag > .item{
     background-color: var(--color-zero);
+    display: flex;
+    justify-content: center;
 }
